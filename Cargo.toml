@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-accountability-kernel"
+name = "sigmaos-arch-shader-accountability-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-accountability-kernel component - Inspired by Arch Linux and Debian"
+description = "Accountability shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-accountability-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_accountability_kernel"
+path = "src/lib.rs"
